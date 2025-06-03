@@ -1,7 +1,7 @@
-! Title: YouTube search
+! Title: YouTube shorts
 ! Description: Hides all irrelevant search results
-! Version: 1.0.0
-! Last modified: 2025-06-02 18:47 UTC
+! Version: 1.0.1
+! Last modified: 2025-06-02 20:04 UTC
 ! Homepage: https://github.com/RiRiSharp/uBlock.Deshittifier
 ! License: https://github.com/RiRiSharp/uBlock.Deshittifier/blob/main/README.md
 
