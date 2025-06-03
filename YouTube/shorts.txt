@@ -1,10 +1,9 @@
-! Title: Hide YouTube Shorts
-! Description: Hide everything related to YouTube shorts
+! Title: YouTube search
+! Description: Hides all irrelevant search results
 ! Version: 1.0.0
-! Last modified: 2024-08-31 19:24
 ! Last modified: 2025-06-02 18:47 UTC
-! Homepage: https://github.com/RiRiSharp/UBlock.HideAnnoyingContent
-! License: https://github.com/RiRiSharp/UBlock.HideAnnoyingContent/blob/main/README.md
+! Homepage: https://github.com/RiRiSharp/uBlock.Deshittifier
+! License: https://github.com/RiRiSharp/uBlock.Deshittifier/blob/main/README.md
 
 ! Home page overview with shorts
 www.youtube.com##ytd-rich-shelf-renderer:matches-attr(is-shorts)
@@ -15,3 +14,4 @@ www.youtube.com##ytd-mini-guide-entry-renderer:has([title="Shorts"])
 
 ! Search results
 www.youtube.com##ytd-reel-shelf-renderer
+www.youtube.com##ytd-video-renderer:has([overlay-style="SHORTS"])
