@@ -1,5 +1,5 @@
-! Title: YouTube search
-! Description: Hides all irrelevant search results
+! Title: Deshittify YouTube
+! Description: Deshittifies YouTube
 ! Last modified: 2025-06-02 16:48 UTC
 ! Expires: 1 Week (Update Frequency)
 ! Version: 1.0.2
@@ -8,8 +8,5 @@
 ! Issues: https://github.com/RiRiSharp/uBlock.Deshittifier/issues
 ! Copyright: © 2025-2025 by RiRiSharp
 
-! Hide shorts, which are in a "reel-shelf"
-www.youtube.com##ytd-reel-shelf-renderer
-
-! Hide all other stupid search results, which are inside a regular "shelf"
-www.youtube.com##ytd-shelf-renderer
+!#include search.txt
+!#include shorts.txt

@@ -4,7 +4,8 @@ Each folder in this repository contains a website, each file filters a certain c
 Examples:
 - Block YouTube shorts
 - Hide irrelevant search results on YouTube (shorts, previously watched, etc.)
-- Remove the discogs audio section
+- Remove all Copilot propaganda from GitHub
+- Remove the Discogs audio section
 
 # Installation
 To install one (or more) of these lists, lookup the site and the category in the table below.
@@ -14,20 +15,30 @@ Navigate to filter lists and click on "Import...", listed on the bottom.
 Paste the url, where each line only contains one url.
 
 # List of uBlock lists
-| Site    | Category | Url                                                                                                |
-|---------|----------|----------------------------------------------------------------------------------------------------|
-| YouTube | Shorts   | https://raw.githubusercontent.com/RiRiSharp/uBlock.Deshittifier/refs/heads/main/YouTube/shorts.txt |
-|         | Search   | https://raw.githubusercontent.com/RiRiSharp/uBlock.Deshittifier/refs/heads/main/YouTube/search.txt |
-| Discogs | Audio    | https://raw.githubusercontent.com/RiRiSharp/uBlock.Deshittifier/refs/heads/main/Discogs/audio.txt  |
+| Site    | Category  | Url                                                                                                |
+|---------|-----------|----------------------------------------------------------------------------------------------------|
+| **All** | **All**   | https://raw.githubusercontent.com/RiRiSharp/uBlock.Deshittifier/refs/heads/main/ultralist.txt      |
+| YouTube | **All**   | https://raw.githubusercontent.com/RiRiSharp/uBlock.Deshittifier/refs/heads/main/YouTube/list.txt   |
+|         | Shorts    | https://raw.githubusercontent.com/RiRiSharp/uBlock.Deshittifier/refs/heads/main/YouTube/shorts.txt |
+|         | Search    | https://raw.githubusercontent.com/RiRiSharp/uBlock.Deshittifier/refs/heads/main/YouTube/search.txt |
+| GitHub  | **All**   | https://raw.githubusercontent.com/RiRiSharp/uBlock.Deshittifier/refs/heads/main/Github/list.txt    |
+|         | Copilot   | https://raw.githubusercontent.com/RiRiSharp/uBlock.Deshittifier/refs/heads/main/Github/copilot.txt |
+| Discogs | **All**   | https://raw.githubusercontent.com/RiRiSharp/uBlock.Deshittifier/refs/heads/main/Discogs/list.txt   |
+|         | Audio     | https://raw.githubusercontent.com/RiRiSharp/uBlock.Deshittifier/refs/heads/main/Discogs/audio.txt  |
 
 # Full description
 ## YouTube
 ### Shorts
 The filter list [/YouTube/shorts.txt] blocks everything related to YouTube shorts.
 
-### Irrelevant search results
-The filter list [/YouTube/search.txt] hides all search results which are designed to keep you as long as possible looking for your favorite video.
-This includes sections like "People also watched", "Explore more", "Previously watched" and of course "Shorts".
+### Search
+The filter list [/YouTube/search.txt] declutters the search results by hiding all search results which are designed to keep you as long as possible looking for your favorite video.
+Filtered sections include sections like "People also watched", "Explore more", "Previously watched" and of course "Shorts".
+
+## GitHub
+### Copilot
+Removes all references to Copilot.
+No more footers promoting Copilot, no more search suggestions with copilot.
 
 ## Discogs
 ### Audio
