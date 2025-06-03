@@ -4,6 +4,7 @@ Each folder in this repository contains a website, each file filters a certain c
 Examples:
 - Block YouTube shorts
 - Hide irrelevant search results on YouTube (shorts, previously watched, etc.)
+- Remove the discogs audio section
 
 # Installation
 To install one (or more) of these lists, lookup the site and the category in the table below.
@@ -17,6 +18,7 @@ Paste the url, where each line only contains one url.
 |---------|----------|----------------------------------------------------------------------------------------------------|
 | YouTube | Shorts   | https://raw.githubusercontent.com/RiRiSharp/uBlock.Deshittifier/refs/heads/main/YouTube/shorts.txt |
 |         | Search   | https://raw.githubusercontent.com/RiRiSharp/uBlock.Deshittifier/refs/heads/main/YouTube/search.txt |
+| Discogs | Audio    | https://raw.githubusercontent.com/RiRiSharp/uBlock.Deshittifier/refs/heads/main/Discogs/audio.txt  |
 
 # Full description
 ## YouTube
@@ -26,6 +28,11 @@ The filter list [/YouTube/shorts.txt] blocks everything related to YouTube short
 ### Irrelevant search results
 The filter list [/YouTube/search.txt] hides all search results which are designed to keep you as long as possible looking for your favorite video.
 This includes sections like "People also watched", "Explore more", "Previously watched" and of course "Shorts".
+
+## Discogs
+### Audio
+For all the people that prefer to listen to their music on YouTube this hides the Audio section on a given track release page.
+It allows you to click on the YouTube videos faster, because no scrolling is required.
 
 ## To do
 - [ ] Create a simple web interface where you can select multiple filter lists to get a new one.

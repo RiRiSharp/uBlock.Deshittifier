@@ -1,0 +1,8 @@
+! Title: Discogs audio section
+! Description: Hide the Discogs audio section to easier see the YouTube videos
+! Version: 1.0.0
+! Last modified: 2025-06-02 19:47 UTC
+! Homepage: https://github.com/RiRiSharp/uBlock.Deshittifier
+! License: https://github.com/RiRiSharp/uBlock.Deshittifier/blob/main/README.md
+
+www.discogs.com###audio
