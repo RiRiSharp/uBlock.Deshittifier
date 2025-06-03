@@ -1,0 +1,17 @@
+! Title: Hide YouTube Shorts
+! Description: Hide everything related to YouTube shorts
+! Version: 1.0.0
+! Last modified: 2024-08-31 19:24
+! Last modified: 2025-06-02 18:47 UTC
+! Homepage: https://github.com/RiRiSharp/UBlock.HideAnnoyingContent
+! License: https://github.com/RiRiSharp/UBlock.HideAnnoyingContent/blob/main/README.md
+
+! Home page overview with shorts
+www.youtube.com##ytd-rich-shelf-renderer:matches-attr(is-shorts)
+
+! Sidebar
+www.youtube.com##ytd-guide-entry-renderer:has([title="Shorts"])
+www.youtube.com##ytd-mini-guide-entry-renderer:has([title="Shorts"])
+
+! Search results
+www.youtube.com##ytd-reel-shelf-renderer
