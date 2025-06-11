@@ -1,6 +1,6 @@
 ! Title: {{SITE}} deshittifier
 ! Description: Deshittifies all things on or caused by {{SITE}}
-! Last modified: {{YEAR}}-{{MONTH_DD}}-{{DAY_DD}} {{HOUR}}:{{MINUTE}} UTC
+! Last modified: {{YEAR}}-{{MONTH_DD}}-{{DAY_DD}} {{HOUR_DD}}:{{MINUTE_DD}} UTC
 ! Expires: 1 Day (Update Frequency)
 ! Version: {{YEAR}}.{{MONTH}}.{{DAY}}.{{BUILD_ID}}
 ! Homepage: https://github.com/RiRiSharp/uBlock.Deshittifier

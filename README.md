@@ -21,36 +21,31 @@ Paste the url, where each line only contains one url.
 # Description of blocked items
 
 - **YouTube**
--
-    - All propaganda related to YouTube shorts is blocked.
--
-    - The search results are decluttered by hiding all search results which are designed to keep you as long as possible
-      looking for your favorite video.
-      Filtered sections include sections like "People also watched", "Explore more", "Previously watched" and of
-      course "Shorts".
+- - All propaganda related to YouTube shorts is blocked.
+- - The search results are decluttered by hiding all search results which are designed to keep you as long as possible
+    looking for your favorite video.
+    Filtered sections include sections like "People also watched", "Explore more", "Previously watched" and of
+    course "Shorts".
 - **GitHub**
--
-    - Removes all references to Copilot. No more footers promoting Copilot, no more search suggestions with copilot.
+- - Removes all references to Copilot. No more footers promoting Copilot, no more search suggestions with copilot.
 - **Google**
--
-    - Removes all the annoying popups which tell you to log in with Google. For instance, Stackoverflow is suffering
+- - Removes all the annoying popups which tell you to log in with Google. For instance, Stackoverflow is suffering
       this fate.
 - **Discogs**
--
-    - For all the people that prefer to listen to their music on YouTube this hides the Audio section promoting Apple
+- - For all the people that prefer to listen to their music on YouTube this hides the Audio section promoting Apple
       Music on a given track release page.
       It allows you to click on the YouTube videos faster, because no scrolling is required.
 
 ## To do
 
-- [x] Create a build pipeline which contains all combined filter lists. (In progress)
 - [ ] Create a simple web interface where you can select multiple filter lists to get a new one.
 
 # Links to uBlock lists
 
-| Site    | Category | Url                                                                                               |
-|---------|----------|---------------------------------------------------------------------------------------------------|
-| YouTube | **All**  | https://raw.githubusercontent.com/RiRiSharp/uBlock.Deshittifier/refs/heads/main/Lists/youtube.txt |
-| GitHub  | **All**  | https://raw.githubusercontent.com/RiRiSharp/uBlock.Deshittifier/refs/heads/main/Lists/github.txt  |
-| Google  | **All**  | https://raw.githubusercontent.com/RiRiSharp/uBlock.Deshittifier/refs/heads/main/Lists/google.txt  |
-| Discogs | **All**  | https://raw.githubusercontent.com/RiRiSharp/uBlock.Deshittifier/refs/heads/main/Lists/discogs.txt |
+| Site    | Category | Url                                              |
+|---------|----------|--------------------------------------------------|
+| **All** | **All**  | https://deshittifier.ririsharp.nl/ultralist.txt  |
+| YouTube | **All**  | https://deshittifier.ririsharp.nl/youtube.txt    |
+| GitHub  | **All**  | https://deshittifier.ririsharp.nl/github.txt     |
+| Google  | **All**  | https://deshittifier.ririsharp.nl/google.txt     |
+| Discogs | **All**  | https://deshittifier.ririsharp.nl/discogs.txt    |
