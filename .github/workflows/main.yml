@@ -5,11 +5,17 @@ env:
   list_location: ./Lists
   template_location: ./Scripts/Templates
   output_location: ./Output
+  list_name: annotated_lists
 
 on:
   push:
     branches:
       - main
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 
 jobs:
   create-annotated-lists:
@@ -33,3 +39,22 @@ jobs:
         uses: actions/upload-artifact@v4.6.2
         with:
           path: ${{ env.output_location }}
+          name: ${{ env.list_name }}
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ${{ env.output_location }}
+
+
+  deploy:
+    needs: create-annotated-lists
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
