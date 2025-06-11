@@ -15,16 +15,18 @@ Navigate to filter lists and click on "Import...", listed on the bottom.
 Paste the url, where each line only contains one url.
 
 # List of uBlock lists
-| Site    | Category  | Url                                                                                                |
-|---------|-----------|----------------------------------------------------------------------------------------------------|
-| **All** | **All**   | https://raw.githubusercontent.com/RiRiSharp/uBlock.Deshittifier/refs/heads/main/ultralist.txt      |
-| YouTube | **All**   | https://raw.githubusercontent.com/RiRiSharp/uBlock.Deshittifier/refs/heads/main/YouTube/list.txt   |
-|         | Shorts    | https://raw.githubusercontent.com/RiRiSharp/uBlock.Deshittifier/refs/heads/main/YouTube/shorts.txt |
-|         | Search    | https://raw.githubusercontent.com/RiRiSharp/uBlock.Deshittifier/refs/heads/main/YouTube/search.txt |
-| GitHub  | **All**   | https://raw.githubusercontent.com/RiRiSharp/uBlock.Deshittifier/refs/heads/main/Github/list.txt    |
-|         | Copilot   | https://raw.githubusercontent.com/RiRiSharp/uBlock.Deshittifier/refs/heads/main/Github/copilot.txt |
-| Discogs | **All**   | https://raw.githubusercontent.com/RiRiSharp/uBlock.Deshittifier/refs/heads/main/Discogs/list.txt   |
-|         | Audio     | https://raw.githubusercontent.com/RiRiSharp/uBlock.Deshittifier/refs/heads/main/Discogs/audio.txt  |
+| Site    | Category  | Url                                                                                                       |
+|---------|-----------|-----------------------------------------------------------------------------------------------------------|
+| **All** | **All**   | https://raw.githubusercontent.com/RiRiSharp/uBlock.Deshittifier/refs/heads/main/ultralist.txt             |
+| YouTube | **All**   | https://raw.githubusercontent.com/RiRiSharp/uBlock.Deshittifier/refs/heads/main/YouTube/list.txt          |
+|         | Shorts    | https://raw.githubusercontent.com/RiRiSharp/uBlock.Deshittifier/refs/heads/main/YouTube/shorts.txt        |
+|         | Search    | https://raw.githubusercontent.com/RiRiSharp/uBlock.Deshittifier/refs/heads/main/YouTube/search.txt        |
+| GitHub  | **All**   | https://raw.githubusercontent.com/RiRiSharp/uBlock.Deshittifier/refs/heads/main/Github/list.txt           |
+|         | Copilot   | https://raw.githubusercontent.com/RiRiSharp/uBlock.Deshittifier/refs/heads/main/Github/copilot.txt        |
+| Google  | **All**   | https://raw.githubusercontent.com/RiRiSharp/uBlock.Deshittifier/refs/heads/main/Google/list.txt           |
+|         | iFrame    | https://raw.githubusercontent.com/RiRiSharp/uBlock.Deshittifier/refs/heads/main/Google/sign-in-iframe.txt |
+| Discogs | **All**   | https://raw.githubusercontent.com/RiRiSharp/uBlock.Deshittifier/refs/heads/main/Discogs/list.txt          |
+|         | Audio     | https://raw.githubusercontent.com/RiRiSharp/uBlock.Deshittifier/refs/heads/main/Discogs/audio.txt         |
 
 # Full description
 ## YouTube
@@ -39,6 +41,11 @@ Filtered sections include sections like "People also watched", "Explore more", "
 ### Copilot
 Removes all references to Copilot.
 No more footers promoting Copilot, no more search suggestions with copilot.
+
+## Google
+### Sign-in iFrame
+Removes all the annoying popups which tell you to log in with Google.
+For instance, Stackoverflow is suffering this fate.
 
 ## Discogs
 ### Audio
