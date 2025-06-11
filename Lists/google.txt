@@ -1,0 +1,2 @@
+! Hide the annoying pop-up to sign in with Google on any random site
+||accounts.google.com/gsi/iframe/select$subdocument

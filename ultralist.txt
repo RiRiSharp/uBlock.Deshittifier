@@ -8,7 +8,7 @@
 ! Issues: https://github.com/RiRiSharp/uBlock.Deshittifier/issues
 ! Copyright: © 2025-2025 by RiRiSharp
 
-!#include YouTube/list.txt
-!#include GitHub/list.txt
-!#include Google/list.txt
-!#include Discogs/list.txt
+!#include Sublists/youtube.txt
+!#include Sublists/github.txt
+!#include Sublists/google.txt
+!#include Sublists/youtube.txt

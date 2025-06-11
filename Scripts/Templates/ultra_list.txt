@@ -1,12 +1,10 @@
-! Title: Deshittify YouTube
-! Description: Deshittifies YouTube
-! Last modified: 2025-06-02 16:48 UTC
-! Expires: 1 Week (Update Frequency)
-! Version: 1.0.2
+! Title: ublock.Deshittifier
+! Description: Deshittifies all things on the internet
+! Last modified: {{YEAR}}-{{MONTH_DD}}-{{DAY_DD}} {{HOUR}}:{{MINUTE}} UTC
+! Expires: 1 Day (Update Frequency)
+! Version: {{YEAR}}.{{MONTH}}.{{DAY}}.{{BUILD_ID}}
 ! Homepage: https://github.com/RiRiSharp/uBlock.Deshittifier
 ! License: https://github.com/RiRiSharp/uBlock.Deshittifier/blob/main/README.md
 ! Issues: https://github.com/RiRiSharp/uBlock.Deshittifier/issues
 ! Copyright: © 2025-2025 by RiRiSharp
 
-!#include search.txt
-!#include shorts.txt

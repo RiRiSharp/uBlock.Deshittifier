@@ -1,0 +1,2 @@
+! Hide the Apple Music section of Discogs
+www.discogs.com###audio

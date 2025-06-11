@@ -1,0 +1,16 @@
+! Hide shorts, which are in a "reel-shelf"
+www.youtube.com##ytd-reel-shelf-renderer
+
+! Hide all other stupid search results, which are inside a regular "shelf"
+www.youtube.com##ytd-shelf-renderer
+
+! Home page overview with shorts
+www.youtube.com##ytd-rich-shelf-renderer:matches-attr(is-shorts)
+
+! Sidebar
+www.youtube.com##ytd-guide-entry-renderer:has([title="Shorts"])
+www.youtube.com##ytd-mini-guide-entry-renderer:has([title="Shorts"])
+
+! Search results
+www.youtube.com##ytd-reel-shelf-renderer
+www.youtube.com##ytd-video-renderer:has([overlay-style="SHORTS"])

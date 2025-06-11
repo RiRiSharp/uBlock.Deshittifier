@@ -1,0 +1,35 @@
+name: Run Python Script
+
+env:
+  scripts_location: ./Scripts
+  list_location: ./Lists
+  template_location: ./Scripts/Templates
+  output_location: ./Output
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  create-annotated-lists:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.13'
+
+      - name: Annotate lists
+        run: python -m Scripts.generate_tagged_lists ${{ env.list_location }} ${{ env.template_location }} ${{ env.output_location }}
+        env:
+          GITHUB_SHA: ${{ github.sha }}
+
+      - name: Publish lists as artifact
+        uses: actions/upload-artifact@v4.6.2
+        with:
+          path: ${{ env.output_location }}

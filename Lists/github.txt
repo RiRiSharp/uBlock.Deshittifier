@@ -1,0 +1,11 @@
+! Home page d-flex with Copilot
+docs.github.com##.d-flex.flex-column:has(.octicon-copilot)
+
+! Specific doc page footer Copilot suggestion
+docs.github.com##.jQOqwm
+
+! Search result "Ask Copilot section"
+docs.github.com##li:has(> #copilot-suggestions)
+
+! Code 55% faster with Copilot
+github.com##.react-code-size-details-in-header:has(.octicon-copilot)
