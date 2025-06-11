@@ -1,57 +1,56 @@
 # uBlock.Deshittifier
-Contains uBlock filter lists for deshittifying your web experience by blocking lots of useless content on a given webiste.
-Each folder in this repository contains a website, each file filters a certain category of annoying content on that website.
+
+Contains opiniated uBlock filter lists for deshittifying your web experience by blocking lots of useless content on a
+given webiste.
+Each file in `Lists/` blocks all the annoying content for a given website.
 Examples:
+
 - Block YouTube shorts
 - Hide irrelevant search results on YouTube (shorts, previously watched, etc.)
+- Hide Google popups
 - Remove all Copilot propaganda from GitHub
-- Remove the Discogs audio section
 
 # Installation
+
 To install one (or more) of these lists, lookup the site and the category in the table below.
 Copy the url.
 Open the extension settings of uBlock and press the three gears (dashboard).
 Navigate to filter lists and click on "Import...", listed on the bottom.
 Paste the url, where each line only contains one url.
 
-# List of uBlock lists
-| Site    | Category  | Url                                                                                                       |
-|---------|-----------|-----------------------------------------------------------------------------------------------------------|
-| **All** | **All**   | https://raw.githubusercontent.com/RiRiSharp/uBlock.Deshittifier/refs/heads/main/ultralist.txt             |
-| YouTube | **All**   | https://raw.githubusercontent.com/RiRiSharp/uBlock.Deshittifier/refs/heads/main/YouTube/list.txt          |
-|         | Shorts    | https://raw.githubusercontent.com/RiRiSharp/uBlock.Deshittifier/refs/heads/main/YouTube/shorts.txt        |
-|         | Search    | https://raw.githubusercontent.com/RiRiSharp/uBlock.Deshittifier/refs/heads/main/YouTube/search.txt        |
-| GitHub  | **All**   | https://raw.githubusercontent.com/RiRiSharp/uBlock.Deshittifier/refs/heads/main/Github/list.txt           |
-|         | Copilot   | https://raw.githubusercontent.com/RiRiSharp/uBlock.Deshittifier/refs/heads/main/Github/copilot.txt        |
-| Google  | **All**   | https://raw.githubusercontent.com/RiRiSharp/uBlock.Deshittifier/refs/heads/main/Google/list.txt           |
-|         | iFrame    | https://raw.githubusercontent.com/RiRiSharp/uBlock.Deshittifier/refs/heads/main/Google/sign-in-iframe.txt |
-| Discogs | **All**   | https://raw.githubusercontent.com/RiRiSharp/uBlock.Deshittifier/refs/heads/main/Discogs/list.txt          |
-|         | Audio     | https://raw.githubusercontent.com/RiRiSharp/uBlock.Deshittifier/refs/heads/main/Discogs/audio.txt         |
+# Description of blocked items
 
-# Full description
-## YouTube
-### Shorts
-The filter list [/YouTube/shorts.txt] blocks everything related to YouTube shorts.
-
-### Search
-The filter list [/YouTube/search.txt] declutters the search results by hiding all search results which are designed to keep you as long as possible looking for your favorite video.
-Filtered sections include sections like "People also watched", "Explore more", "Previously watched" and of course "Shorts".
-
-## GitHub
-### Copilot
-Removes all references to Copilot.
-No more footers promoting Copilot, no more search suggestions with copilot.
-
-## Google
-### Sign-in iFrame
-Removes all the annoying popups which tell you to log in with Google.
-For instance, Stackoverflow is suffering this fate.
-
-## Discogs
-### Audio
-For all the people that prefer to listen to their music on YouTube this hides the Audio section on a given track release page.
-It allows you to click on the YouTube videos faster, because no scrolling is required.
+- **YouTube**
+-
+    - All propaganda related to YouTube shorts is blocked.
+-
+    - The search results are decluttered by hiding all search results which are designed to keep you as long as possible
+      looking for your favorite video.
+      Filtered sections include sections like "People also watched", "Explore more", "Previously watched" and of
+      course "Shorts".
+- **GitHub**
+-
+    - Removes all references to Copilot. No more footers promoting Copilot, no more search suggestions with copilot.
+- **Google**
+-
+    - Removes all the annoying popups which tell you to log in with Google. For instance, Stackoverflow is suffering
+      this fate.
+- **Discogs**
+-
+    - For all the people that prefer to listen to their music on YouTube this hides the Audio section promoting Apple
+      Music on a given track release page.
+      It allows you to click on the YouTube videos faster, because no scrolling is required.
 
 ## To do
+
+- [x] Create a build pipeline which contains all combined filter lists. (In progress)
 - [ ] Create a simple web interface where you can select multiple filter lists to get a new one.
-- [ ] Create a build pipeline which contains all combined filter lists.
+
+# Links to uBlock lists
+
+| Site    | Category | Url                                                                                               |
+|---------|----------|---------------------------------------------------------------------------------------------------|
+| YouTube | **All**  | https://raw.githubusercontent.com/RiRiSharp/uBlock.Deshittifier/refs/heads/main/Lists/youtube.txt |
+| GitHub  | **All**  | https://raw.githubusercontent.com/RiRiSharp/uBlock.Deshittifier/refs/heads/main/Lists/github.txt  |
+| Google  | **All**  | https://raw.githubusercontent.com/RiRiSharp/uBlock.Deshittifier/refs/heads/main/Lists/google.txt  |
+| Discogs | **All**  | https://raw.githubusercontent.com/RiRiSharp/uBlock.Deshittifier/refs/heads/main/Lists/discogs.txt |
