@@ -1,2 +1,3 @@
 ! Hide the annoying pop-up to sign in with Google on any random site
-||accounts.google.com/gsi/iframe/select$subdocument
+! Example: https://www.geeksforgeeks.org/microsoft-azure-debugging-azure-functions-using-vs-code/
+##iframe[src^="https://accounts.google.com/gsi/iframe"]
