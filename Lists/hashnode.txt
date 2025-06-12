@@ -1,0 +1,4 @@
+! Blocks annoying "Subscribe to our newsletter" popup
+! Example page: https://kenbonny.net/writing-azure-functions-with-rider when you scroll down
+##div[tabindex="-1"]:has(a[href^="https://hashnode.com/set-onboard-skip"])
+##[data-state="open"].z-50[aria-hidden="true"]
