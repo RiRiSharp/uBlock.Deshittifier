@@ -5,7 +5,7 @@ from Scripts import metadata_filler, template_names, file_io
 
 
 def output_with_metadata(metadata: str, file_lines: str, output_path: Path):
-    combined_content = metadata + file_lines
+    combined_content = metadata + '\n' + file_lines
     file_io.write_file_text_to_path(output_path, combined_content)
 
     print(f"Successfully prepended metadata and outputted to '{output_path}'.", file=sys.stdout)
