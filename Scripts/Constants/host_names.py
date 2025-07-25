@@ -1,1 +1,1 @@
-﻿RIRSHARPER_HOST = "https://ririsharper.nl/"
+﻿RIRSHARPER_HOST = "https://deshittifier.ririsharp.nl/"

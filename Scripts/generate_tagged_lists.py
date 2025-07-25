@@ -16,7 +16,7 @@ def output_with_metadata(metadata: str, file_as_str: str, output_path: Path):
 def build_file_references(all_files_in_folder: List[Path]):
     all_references = ""
     for file_path in all_files_in_folder:
-        all_references += host_names.RIRSHARPER_HOST + file_path.name + '\n'
+        all_references += '!#include ' + host_names.RIRSHARPER_HOST + file_path.name + '\n'
     return all_references
 
 
