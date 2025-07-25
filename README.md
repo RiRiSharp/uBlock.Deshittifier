@@ -42,10 +42,10 @@ Paste the url, where each line only contains one url.
 
 # Links to uBlock lists
 
-| Site    | Category | Url                                              |
-|---------|----------|--------------------------------------------------|
-| **All** | **All**  | https://deshittifier.ririsharp.nl/ultralist.txt  |
-| YouTube | **All**  | https://deshittifier.ririsharp.nl/youtube.txt    |
-| GitHub  | **All**  | https://deshittifier.ririsharp.nl/github.txt     |
-| Google  | **All**  | https://deshittifier.ririsharp.nl/google.txt     |
-| Discogs | **All**  | https://deshittifier.ririsharp.nl/discogs.txt    |
+| Site    | Url                                              |
+|---------|--------------------------------------------------|
+| **All** | https://deshittifier.ririsharp.nl/ultralist.txt  |
+| YouTube | https://deshittifier.ririsharp.nl/youtube.txt    |
+| GitHub  | https://deshittifier.ririsharp.nl/github.txt     |
+| Google  | https://deshittifier.ririsharp.nl/google.txt     |
+| Discogs | https://deshittifier.ririsharp.nl/discogs.txt    |
