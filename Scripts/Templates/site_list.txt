@@ -7,4 +7,3 @@
 ! License: https://github.com/RiRiSharp/uBlock.Deshittifier/blob/main/LICENSE.md
 ! Issues: https://github.com/RiRiSharp/uBlock.Deshittifier/issues
 ! Copyright: © 2025-2025 by RiRiSharp
-
