@@ -4,7 +4,7 @@
 ! Expires: 1 Day (Update Frequency)
 ! Version: {{YEAR}}.{{MONTH}}.{{DAY}}.{{BUILD_ID}}
 ! Homepage: https://github.com/RiRiSharp/uBlock.Deshittifier
-! License: https://github.com/RiRiSharp/uBlock.Deshittifier/blob/main/README.md
+! License: https://github.com/RiRiSharp/uBlock.Deshittifier/blob/main/LICENSE.md
 ! Issues: https://github.com/RiRiSharp/uBlock.Deshittifier/issues
 ! Copyright: © 2025-2025 by RiRiSharp
 
