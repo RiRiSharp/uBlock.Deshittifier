@@ -1,0 +1,1 @@
+﻿RIRSHARPER_HOST = "https://ririsharper.nl/"

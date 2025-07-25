@@ -1,14 +1,23 @@
 import sys
 from pathlib import Path
+from typing import List
 
-from Scripts import metadata_filler, template_names, file_io
+from Scripts import metadata_filler, file_io
+from Scripts.Constants import template_names, host_names
 
 
-def output_with_metadata(metadata: str, file_lines: str, output_path: Path):
-    combined_content = metadata + '\n' + file_lines
+def output_with_metadata(metadata: str, file_as_str: str, output_path: Path):
+    combined_content = metadata + '\n' + file_as_str
     file_io.write_file_text_to_path(output_path, combined_content)
 
     print(f"Successfully prepended metadata and outputted to '{output_path}'.", file=sys.stdout)
+
+
+def build_file_references(all_files_in_folder: List[Path]):
+    all_references = ""
+    for file_path in all_files_in_folder:
+        all_references += host_names.RIRSHARPER_HOST + file_path.name + '\n'
+    return all_references
 
 
 if __name__ == "__main__":
@@ -28,10 +37,8 @@ if __name__ == "__main__":
 
     metadata_template = file_io.read_file_as_text(site_list_template_path)
     all_files_in_folder = file_io.all_file_paths_in_directory(list_directory)
-    all_lists = ""
     for file in all_files_in_folder:
         file_lines = file_io.read_file_as_text(file)
-        all_lists = all_lists + file_lines
 
         metadata = metadata_filler.fill_metadata_template(metadata_template, target_path=file)
         output_file_path = Path(f"{output_directory}/{file.name}")
@@ -40,4 +47,5 @@ if __name__ == "__main__":
     metadata_template = file_io.read_file_as_text(ultra_list_template_path)
     metadata = metadata_filler.fill_metadata_template(metadata_template)
     output_file_path = Path(f"{output_directory}/ultralist.txt")
-    output_with_metadata(metadata, all_lists, output_file_path)
+    file_references = build_file_references(all_files_in_folder)
+    output_with_metadata(metadata, file_references, output_file_path)
