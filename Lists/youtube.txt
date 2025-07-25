@@ -4,8 +4,8 @@ www.youtube.com##ytd-reel-shelf-renderer
 ! Hide all other stupid search results, which are inside a regular "shelf"
 www.youtube.com##ytd-shelf-renderer
 
-! Home page overview with shorts
-www.youtube.com##ytd-rich-shelf-renderer:matches-attr(is-shorts)
+! Home page, where stuff is in a shelf, usually crap
+www.youtube.com##ytd-rich-shelf-renderer
 
 ! Sidebar
 www.youtube.com##ytd-guide-entry-renderer:has([title="Shorts"])
