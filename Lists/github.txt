@@ -9,3 +9,6 @@ docs.github.com##li:has(> #copilot-suggestions)
 
 ! Code 55% faster with Copilot
 github.com##.react-code-size-details-in-header:has(.octicon-copilot)
+
+! AI search thing
+docs.github.com##div[aria-describedby="ai-search-cta-description"]
