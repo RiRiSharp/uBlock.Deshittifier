@@ -1,0 +1,2 @@
+﻿! Hides the subscription popup, which keeps coming back even after dismissing it, every page
+app.thestorygraph.com###plus-popup
