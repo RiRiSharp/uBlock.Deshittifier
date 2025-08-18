@@ -4,9 +4,10 @@ from pathlib import Path
 from Scripts import metadata_filler, file_io, constants
 
 
-def output_with_metadata(metadata: str, file_as_str: str, output_path: Path):
-    combined_content = metadata + '\n' + file_as_str
-    file_io.write_file_text_to_path(output_path, combined_content)
+def output_with_metadata(metadata: str, body: str, output_path: Path):
+    combined_content = f"{metadata}\n{body}"
+    file_content = combined_content.replace("\u200B", "")
+    file_io.write_file_text_to_path(output_path, file_content)
 
     print(f"Successfully prepended metadata and outputted to '{output_path}'.", file=sys.stdout)
 

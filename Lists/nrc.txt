@@ -1,0 +1,8 @@
+! Hide the subscribe banner when you are not signed in as a paying customer
+www.nrc.nl##.paywall--topbanner
+
+! Hide the subscribe button in the regular banner when you are not signed in as a paying customer
+www.nrc.nl##.header__button--subscribe
+
+! hide the upgrade button, when you are signed in as a paying customer
+www.nrc.nl##.header__button--upgrade
