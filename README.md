@@ -40,10 +40,11 @@ Paste the url, where each line only contains one url.
     - For all the people that prefer to listen to their music on YouTube this hides the Audio section promoting Apple
       Music on a given track release page.
       It allows you to click on the YouTube videos faster, because no scrolling is required.
-
-## To do
-
-- [ ] Create a simple web interface where you can select multiple filter lists to get a new one.
+- **StoryGraph**
+- - Hide popups which ask you to subscribe
+- **NRC**
+- Hides the subscribe button when not signed in.
+- Hides the button for upgrading your subscription when you are already signed in and a paying customer.
 
 # Links to uBlock lists
 
@@ -55,3 +56,4 @@ Paste the url, where each line only contains one url.
 | Google     | https://deshittifier.ririsharp.nl/google.txt     |
 | Discogs    | https://deshittifier.ririsharp.nl/discogs.txt    |
 | StoryGraph | https://deshittifier.ririsharp.nl/storygraph.txt |
+| NRC        | https://deshittifier.ririsharp.nl/nrc.txt        |
