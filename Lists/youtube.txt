@@ -13,4 +13,5 @@ www.youtube.com##ytd-mini-guide-entry-renderer:has([title="Shorts"])
 
 ! Search results
 www.youtube.com##ytd-reel-shelf-renderer
+www.youtube.com##grid-shelf-view-model
 www.youtube.com##ytd-video-renderer:has([overlay-style="SHORTS"])
