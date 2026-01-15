@@ -1,0 +1,2 @@
+﻿! Hide buttons providing sale options
+mail.proton.me##.topnav-listItem:has(use[xlink\:href="#ic-gift"])
